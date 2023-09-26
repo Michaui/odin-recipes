@@ -170,10 +170,10 @@ body a, body a:hover, body a:focus, body a:active {
   text-decoration: none;
   color: var(--dark-color);
 }
-#navbar ul ol:hover {
+#navbar ul ol:is(:hover, :focus) {
   background-color: var(--dark-color);
 }
-#navbar ul ol:hover a {
+#navbar ul ol:is(:hover, :focus) a {
   color: var(--white-color);
 }
 #navbar .push {

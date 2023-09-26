@@ -216,7 +216,7 @@ body {
                 color: var(--dark-color);
             }
 
-            &:hover {
+            &:is(:hover, :focus) {
                 background-color: var(--dark-color);
 
                 a {
